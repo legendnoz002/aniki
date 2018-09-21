@@ -1,108 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="./node_modules/bulma/css/bulma.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="./node_modules/bulma/css/bulma.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+    crossorigin="anonymous">
 </head>
+
 <body>
-    <section class="hero is-bold is-light is-medium">
-        <!-- Hero head: will stick at the top -->
-        <div class="hero-head">
-          <nav class="navbar">
-            <div class="container">
-              <div class="navbar-brand">
-                
-                <span class="navbar-burger burger" data-target="navbarMenuHeroA">
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                </span>
-              </div>
-              <div id="navbarMenuHeroA" class="navbar-menu">
-                <div class="navbar-end">
-                  <a class="navbar-item ">
-                    Home
-                  </a>
-                  <a class="navbar-item is-active">
-                    Contact us 
-                  </a>                        
-                  </div>
-               </div>
+  <section class="hero is-bold is-light is-medium">
+    <!-- Hero head: will stick at the top -->
+    <div class="hero-head">
+      <nav class="navbar">
+        <div class="container">
+          <div class="navbar-brand">
+
+            <span class="navbar-burger burger" data-target="navbarMenuHeroA">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </div>
+          <div id="navbarMenuHeroA" class="navbar-menu">
+            <div class="navbar-end">
+              <a class="navbar-item " onclick="location.href='index.html'">
+                Home
+              </a>
+              <a class="navbar-item is-active">
+                Contact us
+              </a>
             </div>
-          </nav>
-        </div>
-      
-        <!-- Hero content: will be in the middle -->
-        <div class="hero-body">
-          <div class="container has-text-left">
-            <img src="img/icon-call-128.png" ALIGN="left" HSPACE="100">
-            
-            
-            <h2 class="subtitle">
-              contact us
-            </h2>
-            <h1 class="title">
-              BABY
-            </h1>
           </div>
         </div>
-        
-    </section>
+      </nav>
+    </div>
 
-    <section class="section">
-        
-        <div class="container">
-            <div class="columns">
-                <div class="column">
-                    <div class="field">
-                        <label class="label">
-                         Firstname
-                        </label>
-                            <div class="control">
-                              <input class="input" type="text" placeholder="Apisitthamrong">
-                            </div>
-                    </div>
-                </div>
-                <div class="column">
-                        <div class="field">
-                            <label class="label">
-                             Lastname
-                            </label>
-                                <div class="control">
-                                  <input class="input" type="text" placeholder="Sangsadoh">
-                                </div>
-                        </div>
-                    </div>
+    <!-- Hero content: will be in the middle -->
+    <div class="hero-body">
+      <div class="container has-text-left">
+        <img src="img/icon-call-128.png" ALIGN="left" HSPACE="100">
+
+
+        <h2 class="subtitle">
+          contact us
+        </h2>
+        <h1 class="title">
+          BABY
+        </h1>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="section">
+
+    <div class="container">
+      <div class="columns">
+        <div class="column">
+          <div class="field">
+            <label class="label">
+              Firstname
+            </label>
+            <div class="control">
+              <input class="input" type="text" placeholder="Apisitthamrong">
             </div>
+          </div>
         </div>
-        <div class="container">
-                <div class="columns">
-                    <div class="column">
-                        <div class="field">
-                            <label class="label">
-                             Email
-                            </label>
-                                <div class="control">
-                                  <input class="input" type="text" placeholder='&#xf015; Some Input Text'>
-                                </div>
-                        </div>
-                    </div>
-                    <div class="column">
-                            <div class="field">
-                                <label class="label">
-                                 Firstname
-                                </label>
-                                    <div class="control">
-                                      <input class="input" type="text" placeholder="Apisitthamrong">
-                                    </div>
-                            </div>
-                        </div>
-                </div>
+        <div class="column">
+          <div class="field">
+            <label class="label">
+              Lastname
+            </label>
+            <div class="control">
+              <input class="input" type="text" placeholder="Sangsadoh">
             </div>
-    </section>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="columns">
+        <div class="column">
+          <div class="field">
+            <label class="label">
+              Email
+            </label>
+            <div class="control has-icons-left has-icons-right">
+              <input class="input" type="text" placeholder="outlook@gmail.com">
+              <span class="icon is-small is-left">
+                <i class="fa fa-envelope"></i>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="field">
+            <label class="label">
+              Phone
+            </label>
+            <div class="control has-icons-left has-icons-right">
+              <input class="input" type="text" placeholder="062-913-0096">
+              <span class="icon is-small is-left">
+                  <i class="fa fa-phone-square"></i>
+                </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="control">
+        <div class="select">
+          <select>
+            <option>General Question</option>
+            <option>Other Question</option>
+          </select>
+        </div>
+      </div>
+      <br>
+      <div class="field">
+        <label class="label">Message</label>
+        <div class="control">
+          <textarea class="textarea is-info" placeholder="Detail"></textarea>
+        </div>
+      </div>
+      <div class="field is-grouped">
+          <div class="control">
+            <button class="button is-link">Submit</button>
+          </div>
+          <div class="control">
+            <button class="button is-text">Cancel</button>
+          </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          <strong>BUU PHONE</strong>
+          " by "
+          <a href="https://www.facebook.com/toey.olantern">TOEY XD</a>
+          " contact 062-913-0096 for education"
+        </p>
+      </div>
+    </footer>
+  </section>
 </body>
+
 </html>
